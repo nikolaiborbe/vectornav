@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vectornav-vn200"
+version = "0.1.0"
+description = "Cross-platform Python driver for the VectorNav VN-200 GPS/INS sensor"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["vectornav", "vn-200", "imu", "gps", "ins", "ahrs", "serial", "sensor"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    { name = "Propulse" },
+]
+dependencies = [
+    "pyserial>=3.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

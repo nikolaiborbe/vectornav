@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/vectornav/__init__.py
+src/vectornav/_vn200.py
+src/vectornav_vn200.egg-info/PKG-INFO
+src/vectornav_vn200.egg-info/SOURCES.txt
+src/vectornav_vn200.egg-info/dependency_links.txt
+src/vectornav_vn200.egg-info/requires.txt
+src/vectornav_vn200.egg-info/top_level.txt
